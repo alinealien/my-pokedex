@@ -1,0 +1,31 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box; /* Para considerar a borda de tamanho total, facilitar as jogadas de tamanho*/
+   
+
+}
+
+body{
+    background-color: #151515;
+}
+
+.textH1{
+    color: #fff;
+}
+
+.content {
+    height: 100vh;
+    width: 100vh;
+    background-color: #000000;
+    padding: 1rem; /*Ele utilizou o rem pois é mais maleavel em cada browser*/
+}
+
+@media screen and (min-width: 992px) {
+   .content{
+    max-width: 992px;
+    height: auto;
+    margin: 1rem auto;
+    border-radius: 1rem;
+   }
+  }
+  
