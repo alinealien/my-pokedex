@@ -20,12 +20,5 @@ body{
     padding: 1rem; /*Ele utilizou o rem pois é mais maleavel em cada browser*/
 }
 
-@media screen and (min-width: 992px) {
-   .content{
-    max-width: 992px;
-    height: auto;
-    margin: 1rem auto;
-    border-radius: 1rem;
-   }
-  }
+
   
