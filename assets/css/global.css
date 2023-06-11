@@ -1,13 +1,13 @@
 * {
     font-family: 'Roboto', sans-serif;
     box-sizing: border-box; /* Para considerar a borda de tamanho total, facilitar as jogadas de tamanho*/
-   
-
 }
 
 body{
-    background-color: #bc2d2d;
+    background-color: #000000;
 }
+
+
 
 .textH1{
     color: #fff;

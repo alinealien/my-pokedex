@@ -4,17 +4,18 @@
     list-style: none;
     padding: 0;
     max-width: 0; 
+
 }
 
 .content {
     display: flexbox;
     width: 100rem;
-    background-color: #000000;
+    background-color: #000808;
 }
 
 .content2 {
     background-color: #3fb771;
-    color: #fff;
+    color: #bdbcbc;
     flex-direction: column;
     margin: .5rem;
     padding: .5rem;
@@ -23,7 +24,7 @@
 }
 
 .pokemon {
-    background-color: #b7b73f;
+    background-color: #3fb771;;
     color: #fff;
     display: flex; 
     flex-direction: column;
