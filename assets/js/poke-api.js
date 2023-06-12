@@ -8,12 +8,12 @@ function convertPokeApiDetailToPokemon(pokeDetail) {
 
     //Conceito de destruction
     const types = pokeDetail.types.map((typeSlot) => typeSlot.type.name)
-    const tipe = types
+    const [type] = types
 
     pokemon.types = types
     pokemon.type = type
 
-    pokemon.photo = pokemon.sprites.other.dream_world.front_default
+    pokemon.photo = pokeDetail.sprites.other.dream_world.front_default
 
     return pokemon
 }
