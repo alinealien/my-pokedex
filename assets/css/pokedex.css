@@ -5,12 +5,15 @@
     padding: 0;
     max-width: 0; 
 
+
 }
 
-.content {
+/*.content {
     display: flexbox;
     width: 100rem;
-    background-color: #000808;
+    background-color: #000000;
+   
+
 }
 
 .content2 {
@@ -21,7 +24,7 @@
     padding: .5rem;
     display: flexbox; 
     border-radius: 1rem;
-}
+}*/
 
 .pokemon {
     background-color: #3fb771;;
@@ -32,6 +35,7 @@
     padding: .5rem;
     width: 11rem;
     border-radius: 1rem;
+    
 
 }
 
